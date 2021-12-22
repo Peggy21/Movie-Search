@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body>
+    
+
+<br>
+
+<form action="/movie" method="POST">
+  <div class="mb-3">
+    <!-- <label for="movie-form" class="form-label" name="name" > Movie Title: </label> -->
+    <input type="text" 
+    class="form-control" 
+    id="movie-form" 
+    placeholder="Enter movie name/title" 
+    name="name"/>
+    <br>
+    <input type="submit" value="Search Movie" class="btn btn-secondary" name="name">
+
+  </div>
+
+  <div class="inner-video">
+    <iframe width="450" height="250" 
+    src="https://www.youtube.com/embed/qcOfLELIW7M?&autoplay=1" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+  
+  </div>
+</body>
+  {% endblock content %} 
