@@ -1,1 +1,0 @@
-API_SECRET_KEY = "a7a3ab55"
