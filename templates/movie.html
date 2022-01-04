@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+   <h2 class="movie-title">{{ movie.Title }}</h2>
+</div>
+   
+<div class="cards">
+ <ul>
+
+       <!-- <br/> Id : {{ movie.imdbID }} -->
+       <br/> Title : {{ movie.Title }}
+       <br/> Year : {{ movie.Year }}
+       <br>  Director: {{ movie.Director}}
+       <br/> Actors : {{ movie.Actors }}
+       <br>  Genre: {{ movie.Genre }}
+       <br/> Country : {{ movie.Country }}
+       <br/> Runtime : {{ movie.Runtime }}
+       <br> Description: {{ movie.Plot}}
+</ul>
+</div>
+
+
+{% endblock content %} 
