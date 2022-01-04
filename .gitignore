@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 setting.py
 
 venv/
@@ -5,3 +6,6 @@ venv/
 __pycache__
 
 .vscode/
+=======
+__pycache__
+>>>>>>> 8f8d2aa1243999cfa2fae0c63ef0d73eaf176a96
