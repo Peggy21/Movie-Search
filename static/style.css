@@ -3,23 +3,14 @@ body{
 }
 
 .movie-title{
-<<<<<<< HEAD
     font-size:xx-large;
     font-weight:bolder;
-=======
-    font-size:x-large;
-    font-weight: bold;
->>>>>>> 8f8d2aa1243999cfa2fae0c63ef0d73eaf176a96
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
 }
 
 .cards{
-<<<<<<< HEAD
     margin-top: 50px;
-=======
-    margin-top: 80px;
->>>>>>> 8f8d2aa1243999cfa2fae0c63ef0d73eaf176a96
     box-shadow: 20px 20px 50px rgb(29, 28, 28);
     border-radius: 10px;
     border-style: hidden;

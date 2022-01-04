@@ -4,6 +4,8 @@ Sometimes people are unsure what movie they like to see, but a movie website wil
 This app allows them to get info regarding genres, director, actors, country, runtime, year release and brief description.
 
 
+**Deployed with Heroku:**
+
 [Welcome To Movie Search App](https://pegah-movie-app.herokuapp.com)
 
 

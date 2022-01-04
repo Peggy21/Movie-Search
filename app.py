@@ -1,14 +1,10 @@
 
-<<<<<<< HEAD
 import os
-=======
->>>>>>> 8f8d2aa1243999cfa2fae0c63ef0d73eaf176a96
 from flask import Flask,request, render_template, jsonify
 from flask_debugtoolbar import DebugToolbarExtension
 import requests
 import json
 
-<<<<<<< HEAD
 app = Flask(__name__)
 
 from werkzeug.utils import redirect
@@ -16,13 +12,6 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'hellosecret')
 from setting import API_SECRET_KEY 
 
 
-=======
-from werkzeug.utils import redirect
-
-from setting import API_SECRET_KEY 
-
-app = Flask(__name__)
->>>>>>> 8f8d2aa1243999cfa2fae0c63ef0d73eaf176a96
 
 @app.route('/')
 def home():
