@@ -10,6 +10,7 @@ This app allows them to get info regarding genres, director, actors, country, ru
 - HTML5
 - CSS
 - Bootstrap v5.1
+- PostgreSQL 13
 - Python 3.9.6
 - Flask 2.0.2
 - Jinja2 3.0.3
